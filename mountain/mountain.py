@@ -8,6 +8,7 @@ ax = fig.add_subplot(111, projection='3d')
 y = np.arange(14)
 x = np.arange(15)
 X, Y = np.meshgrid(x, y)
+print(Y)
 R = np.zeros((14, 15))
 fp = open("./mountain/mountain_aux.txt")
 for i in range(0, 14):
